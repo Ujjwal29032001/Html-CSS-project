@@ -1,0 +1,3 @@
+z index property specifies stack order of an element when element are position
+they can overlap other element.
+z-index property specifies stake order of the element [which element should be placed in front or behind the other] 

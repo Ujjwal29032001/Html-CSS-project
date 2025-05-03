@@ -1,0 +1,79 @@
+The Flex conatiner properties are:
+flex-direction 
+flex-wrap 
+flex-flow 
+justify-content 
+align-items 
+align-content 
+The flex-direction property
+the flex-direction property defines in which direction the conatiner want
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style type="text/css">
+        .container{               
+            display:flex;
+            background-color: yellow;
+            border: 2px solid blue;
+            /* flex-direction:column; */
+            /* flex-direction:row-reverse; */
+            /* flex-direction: column-reverse; */
+            /* flex-direction:row */
+            /* flex-wrap:wrap; */
+             /* flex-wrap: wrap-reverse; */
+            /* flex-wrap: nowrap; */ 
+            flex-flow: row wrap;
+            justify-content: center;
+            justify-content: start;
+            justify-content: end;
+            justify-content: right;
+            justify-content:left;
+
+        }
+        .container div{
+            width:50px;
+            padding:10px;
+            margin:10px;
+            height:50px;
+            border: 2px solid blue;
+            background-color: cyan;
+            border-radius: 10px;
+            background-color: cyan;
+            border-radius:10px;
+            text-align: center;
+            font-family: fortre;
+
+        }
+
+    </style>
+   
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="Html">Html</div>
+        <div class="CSS">CSS</div>
+        <div class="Javascript">javascript</div>
+        <div>Bootstrap</div>
+        <div>Bootstrap</div>
+        <div>Bootstrap</div>
+        <div>Bootstrap</div>
+        <div>Bootstrap</div>
+        <div>Bootstrap</div>
+        <div>Bootstrap</div>
+        <div>Bootstrap</div>
+        <div>Bootstrap</div>
+        <div>Bootstrap</div>
+        <div>Bootstrap</div>
+        <div>Bootstrap</div>
+        <div>Bootstrap</div>
+        <div>Bootstrap</div>
+    </div>
+</body>
+</html>
+<!-- =========================================================== -->
+ <!-- flex-flow-property:
+ the flex-flow-property is a shorthand property for setting both the 
+ flex-direction and flex-wrap properties example - flex-flow:row wrap; --> 
+ <!-- ======================================================================= -->
+  justify-content: used to align the flex-items;

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body style="background-color: red;">
+    <h2 style="color: blue; text-align:center; text-decoration: underline;" ><ul> Student Registration Form Using Table in Html</ul></h2>
+    <form action="/submit_registration" method="post">
+        <table>
+          <tr>
+            <td><label for="firstname">First Name:</label></td>
+            <td><input type="text" id="firstname" name="Firstname" requird></td>
+          </tr>  
+            <td><label for="lastname">Last Name:</label></td>
+            <td><input type="text" id="lastname" name="Lastname" requird></td>
+          </tr>  
+          <tr>
+            <td><label for="email">Email ID:</label></td>
+            <td><input type="email" id="email" name="email" requird></td>
+          </tr> 
+          <tr> 
+            <td><label for="mobile">Mobile Number:</label></td>
+            <td><input type="tel" id="mobile" name="mobile" requird></td>
+          </tr>  
+          <tr>
+            <td><label for="gender">Gender:</label></td>
+            <td>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="female">Female</label>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="dob">Date of Birth:</label></td>
+            <td><input type="date" id="dob" name="dob" required></td>
+          </tr>
+          <tr>
+            <td><label for="address">Address:</label></td>
+            <td><textarea id="address" name="address" rows="4" cols="50" required></textarea></td>
+          </tr>
+          <tr>
+            <td><label for="city">City</label></td>
+            <td><input type="text" id="city" name="city" required></td>
+          </tr>
+          <tr>
+            <td><label for="pincode">Pincode:</label></td>
+            <td><input type="text"id="pincode" name="pincode" required></td>
+          </tr>
+          <tr>
+            <td><label for="state">State:</label></td>
+            <td><input type="text"id="state" name="state" required></td>
+          </tr>
+          <tr>
+            <td><label for="country">Country:</label></td>
+            <td><input type="text"id="Country" name="Country" required></td>
+          </tr>
+          <tr>
+            <td><label for="Hobbies">Hobbies:</label></td>
+            <td><input type="text"id="Hobbies" name="Hobbies" required></td>
+          </tr>
+          <tr>
+            <td><label for="Qualification">Qualification:</label></td>
+           <select id="Qualification" name="course" required>
+            <option value="High School">HIGH SCHOOL(10th)</option>
+            <option value="Higher School">Higher School(12th)</option>
+            <option value="Graduation">Graduation(Bachelors)</option>
+            <option value="Post graduation">Post Graduation(Masters)</option>
+            <option value="PHd">PHd</option>
+           </select>
+          </tr>
+         <tr>
+            <td><lable for="course">CourseApplied For:</lable></td>
+            <td>
+                <select id="course" name="course" requird>
+                    <option value="BCA">BCA(Bachelor oF Communication Application)</option>
+                    <option value="B.Com">B.Com(Bachelor of Commerce)</option>
+                    <option value="B.sc">B.Sc(Bachelor of Science)</option>
+                    <option value="BA">BA(Bachelor of Arts)</option>
+                    <option value="MCA">MCA(Master Of Computer Applications)</option>
+                    <option value="M.Com">M.Com(Master Of Commerce)</option>
+                    <option value="M.Sc">M.Sc(Master of Science)</option>
+                    <option value="MA">MA(Master of Arts)</option>
+                </select>
+            </td>
+         </tr>
+         <tr>
+            <td colspan="2" style="text-align: center;">
+                <input type="submit" value="Register">
+                <input type="Reset" value="Reset">
+            </td>
+         </tr>
+        </table>
+    </form>
+
+</body>
+</html>
